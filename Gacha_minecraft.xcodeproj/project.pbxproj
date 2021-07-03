@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349AD8DE26906F6A0009171A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349AD8DD26906F6A0009171A /* AppDelegate.swift */; };
+		349AD8E026906F6A0009171A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349AD8DF26906F6A0009171A /* SceneDelegate.swift */; };
+		349AD8E226906F6A0009171A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349AD8E126906F6A0009171A /* ViewController.swift */; };
+		349AD8E526906F6A0009171A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349AD8E326906F6A0009171A /* Main.storyboard */; };
+		349AD8E726906F6B0009171A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349AD8E626906F6B0009171A /* Assets.xcassets */; };
+		349AD8EA26906F6B0009171A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349AD8E826906F6B0009171A /* LaunchScreen.storyboard */; };
+		349AD8F526906F6B0009171A /* Gacha_minecraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349AD8F426906F6B0009171A /* Gacha_minecraftTests.swift */; };
+		349AD90026906F6B0009171A /* Gacha_minecraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349AD8FF26906F6B0009171A /* Gacha_minecraftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349AD8F126906F6B0009171A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349AD8D226906F6A0009171A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349AD8D926906F6A0009171A;
+			remoteInfo = Gacha_minecraft;
+		};
+		349AD8FC26906F6B0009171A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349AD8D226906F6A0009171A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349AD8D926906F6A0009171A;
+			remoteInfo = Gacha_minecraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		349AD8DA26906F6A0009171A /* Gacha_minecraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gacha_minecraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349AD8DD26906F6A0009171A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		349AD8DF26906F6A0009171A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		349AD8E126906F6A0009171A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		349AD8E426906F6A0009171A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		349AD8E626906F6B0009171A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		349AD8E926906F6B0009171A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		349AD8EB26906F6B0009171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349AD8F026906F6B0009171A /* Gacha_minecraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gacha_minecraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349AD8F426906F6B0009171A /* Gacha_minecraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gacha_minecraftTests.swift; sourceTree = "<group>"; };
+		349AD8F626906F6B0009171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349AD8FB26906F6B0009171A /* Gacha_minecraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gacha_minecraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		349AD8FF26906F6B0009171A /* Gacha_minecraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gacha_minecraftUITests.swift; sourceTree = "<group>"; };
+		349AD90126906F6B0009171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349AD8D726906F6A0009171A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349AD8ED26906F6B0009171A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349AD8F826906F6B0009171A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349AD8D126906F6A0009171A = {
+			isa = PBXGroup;
+			children = (
+				349AD8DC26906F6A0009171A /* Gacha_minecraft */,
+				349AD8F326906F6B0009171A /* Gacha_minecraftTests */,
+				349AD8FE26906F6B0009171A /* Gacha_minecraftUITests */,
+				349AD8DB26906F6A0009171A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349AD8DB26906F6A0009171A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349AD8DA26906F6A0009171A /* Gacha_minecraft.app */,
+				349AD8F026906F6B0009171A /* Gacha_minecraftTests.xctest */,
+				349AD8FB26906F6B0009171A /* Gacha_minecraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349AD8DC26906F6A0009171A /* Gacha_minecraft */ = {
+			isa = PBXGroup;
+			children = (
+				349AD8DD26906F6A0009171A /* AppDelegate.swift */,
+				349AD8DF26906F6A0009171A /* SceneDelegate.swift */,
+				349AD8E126906F6A0009171A /* ViewController.swift */,
+				349AD8E326906F6A0009171A /* Main.storyboard */,
+				349AD8E626906F6B0009171A /* Assets.xcassets */,
+				349AD8E826906F6B0009171A /* LaunchScreen.storyboard */,
+				349AD8EB26906F6B0009171A /* Info.plist */,
+			);
+			path = Gacha_minecraft;
+			sourceTree = "<group>";
+		};
+		349AD8F326906F6B0009171A /* Gacha_minecraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				349AD8F426906F6B0009171A /* Gacha_minecraftTests.swift */,
+				349AD8F626906F6B0009171A /* Info.plist */,
+			);
+			path = Gacha_minecraftTests;
+			sourceTree = "<group>";
+		};
+		349AD8FE26906F6B0009171A /* Gacha_minecraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				349AD8FF26906F6B0009171A /* Gacha_minecraftUITests.swift */,
+				349AD90126906F6B0009171A /* Info.plist */,
+			);
+			path = Gacha_minecraftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349AD8D926906F6A0009171A /* Gacha_minecraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349AD90426906F6B0009171A /* Build configuration list for PBXNativeTarget "Gacha_minecraft" */;
+			buildPhases = (
+				349AD8D626906F6A0009171A /* Sources */,
+				349AD8D726906F6A0009171A /* Frameworks */,
+				349AD8D826906F6A0009171A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gacha_minecraft;
+			productName = Gacha_minecraft;
+			productReference = 349AD8DA26906F6A0009171A /* Gacha_minecraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		349AD8EF26906F6B0009171A /* Gacha_minecraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349AD90726906F6B0009171A /* Build configuration list for PBXNativeTarget "Gacha_minecraftTests" */;
+			buildPhases = (
+				349AD8EC26906F6B0009171A /* Sources */,
+				349AD8ED26906F6B0009171A /* Frameworks */,
+				349AD8EE26906F6B0009171A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349AD8F226906F6B0009171A /* PBXTargetDependency */,
+			);
+			name = Gacha_minecraftTests;
+			productName = Gacha_minecraftTests;
+			productReference = 349AD8F026906F6B0009171A /* Gacha_minecraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		349AD8FA26906F6B0009171A /* Gacha_minecraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349AD90A26906F6B0009171A /* Build configuration list for PBXNativeTarget "Gacha_minecraftUITests" */;
+			buildPhases = (
+				349AD8F726906F6B0009171A /* Sources */,
+				349AD8F826906F6B0009171A /* Frameworks */,
+				349AD8F926906F6B0009171A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				349AD8FD26906F6B0009171A /* PBXTargetDependency */,
+			);
+			name = Gacha_minecraftUITests;
+			productName = Gacha_minecraftUITests;
+			productReference = 349AD8FB26906F6B0009171A /* Gacha_minecraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349AD8D226906F6A0009171A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					349AD8D926906F6A0009171A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					349AD8EF26906F6B0009171A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 349AD8D926906F6A0009171A;
+					};
+					349AD8FA26906F6B0009171A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 349AD8D926906F6A0009171A;
+					};
+				};
+			};
+			buildConfigurationList = 349AD8D526906F6A0009171A /* Build configuration list for PBXProject "Gacha_minecraft" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 349AD8D126906F6A0009171A;
+			productRefGroup = 349AD8DB26906F6A0009171A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349AD8D926906F6A0009171A /* Gacha_minecraft */,
+				349AD8EF26906F6B0009171A /* Gacha_minecraftTests */,
+				349AD8FA26906F6B0009171A /* Gacha_minecraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349AD8D826906F6A0009171A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349AD8EA26906F6B0009171A /* LaunchScreen.storyboard in Resources */,
+				349AD8E726906F6B0009171A /* Assets.xcassets in Resources */,
+				349AD8E526906F6A0009171A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349AD8EE26906F6B0009171A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349AD8F926906F6B0009171A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349AD8D626906F6A0009171A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349AD8E226906F6A0009171A /* ViewController.swift in Sources */,
+				349AD8DE26906F6A0009171A /* AppDelegate.swift in Sources */,
+				349AD8E026906F6A0009171A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349AD8EC26906F6B0009171A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349AD8F526906F6B0009171A /* Gacha_minecraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349AD8F726906F6B0009171A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349AD90026906F6B0009171A /* Gacha_minecraftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		349AD8F226906F6B0009171A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349AD8D926906F6A0009171A /* Gacha_minecraft */;
+			targetProxy = 349AD8F126906F6B0009171A /* PBXContainerItemProxy */;
+		};
+		349AD8FD26906F6B0009171A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349AD8D926906F6A0009171A /* Gacha_minecraft */;
+			targetProxy = 349AD8FC26906F6B0009171A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		349AD8E326906F6A0009171A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349AD8E426906F6A0009171A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		349AD8E826906F6B0009171A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349AD8E926906F6B0009171A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349AD90226906F6B0009171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		349AD90326906F6B0009171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349AD90526906F6B0009171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gacha_minecraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akky.count3.Gacha-minecraft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349AD90626906F6B0009171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gacha_minecraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akky.count3.Gacha-minecraft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		349AD90826906F6B0009171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gacha_minecraftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akky.count3.Gacha-minecraftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gacha_minecraft.app/Gacha_minecraft";
+			};
+			name = Debug;
+		};
+		349AD90926906F6B0009171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gacha_minecraftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akky.count3.Gacha-minecraftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gacha_minecraft.app/Gacha_minecraft";
+			};
+			name = Release;
+		};
+		349AD90B26906F6B0009171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gacha_minecraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akky.count3.Gacha-minecraftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gacha_minecraft;
+			};
+			name = Debug;
+		};
+		349AD90C26906F6B0009171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Gacha_minecraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akky.count3.Gacha-minecraftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gacha_minecraft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349AD8D526906F6A0009171A /* Build configuration list for PBXProject "Gacha_minecraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349AD90226906F6B0009171A /* Debug */,
+				349AD90326906F6B0009171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349AD90426906F6B0009171A /* Build configuration list for PBXNativeTarget "Gacha_minecraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349AD90526906F6B0009171A /* Debug */,
+				349AD90626906F6B0009171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349AD90726906F6B0009171A /* Build configuration list for PBXNativeTarget "Gacha_minecraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349AD90826906F6B0009171A /* Debug */,
+				349AD90926906F6B0009171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349AD90A26906F6B0009171A /* Build configuration list for PBXNativeTarget "Gacha_minecraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349AD90B26906F6B0009171A /* Debug */,
+				349AD90C26906F6B0009171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349AD8D226906F6A0009171A /* Project object */;
+}
